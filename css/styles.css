@@ -391,8 +391,6 @@ body {
 .portfolio-item {
   background-color: #ffffff;
   width: calc((100% - 48px) / 3);
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #fff;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -400,6 +398,10 @@ body {
 .portfolio-item:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.portfolio-item:hover .portfolio-overlay {
+  transform: translateY(0%);
 }
 
 .portfolio-img-wrapper {
@@ -449,6 +451,12 @@ body {
 }
 
 /* page footer */
+.container {
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px 0 15px;
+}
+
 .footer {
   background-color: #2e2f42;
   padding: 100px 0;
