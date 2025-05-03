@@ -545,6 +545,13 @@ body {
 
 /* Subscribe */
 
+.footer-form {
+  background: #2e2f42;
+  width: 453px;
+  height: 80px;
+  margin-left: 80px;
+}
+
 .footer-form-title {
   font-weight: 500;
   font-size: 16px;
@@ -554,20 +561,26 @@ body {
   margin-bottom: 16px;
 }
 
+.footer-form-label-input {
+  background: #2e2f42;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  width: 264px;
+  height: 40px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+
 .footer-form-mail {
   display: flex;
   flex-direction: row;
   gap: 12px;
   padding: 8px;
   border: none;
-  max-width: 300px;
+  max-width: 264px;
 }
 
-.form-button {
+.footer-form-button {
   align-self: flex-start;
-}
-
-.form-input {
   background-color: #4d5ae5;
   padding: 4px;
   color: #fff;
@@ -580,6 +593,17 @@ body {
   line-height: 200%; /* line-height: 24px; */
   letter-spacing: 0.04em;
 }
+
+.footer-form-button {
+  background-color: #4d5ae5;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  padding: 8px;
+  border: none;
+  max-width: 300px;
+}
+
 .form-label {
   display: flex;
   flex-direction: column;
