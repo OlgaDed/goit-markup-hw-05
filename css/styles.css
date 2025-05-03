@@ -567,7 +567,6 @@ body {
   border-radius: 4px;
   width: 264px;
   height: 40px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
 .footer-form-mail {
@@ -580,34 +579,27 @@ body {
 }
 
 .footer-form-button {
-  align-self: flex-start;
-  background-color: #4d5ae5;
-  padding: 4px;
-  color: #fff;
-  border: 1px solid #fff;
-  border-radius: 4px;
-  width: 264px;
-  height: 40px;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 200%; /* line-height: 24px; */
-  letter-spacing: 0.04em;
-}
-
-.footer-form-button {
-  background-color: #4d5ae5;
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: row;
-  gap: 12px;
-  padding: 8px;
-  border: none;
-  max-width: 300px;
+  gap: 16px;
+  border-radius: 4px;
+  padding: 8px 24px;
+  width: 165px;
+  height: 40px;
+  background: #4d5ae5;
+  color: #ffffff;
 }
 
-.form-label {
-  display: flex;
-  flex-direction: column;
+.footer-form-icon:hover,
+.footer-form-icon:focus {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+
+.footer-form-button:hover,
+.footer-form-button:focus {
+  background-color: #31d0aa;
 }
 
 /* Modal content */
