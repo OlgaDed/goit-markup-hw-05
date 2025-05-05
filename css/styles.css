@@ -836,7 +836,6 @@ body {
 }
 
 .modal-form-checkbox-label {
-  display: inline-flex;
   align-items: center;
   font-size: 12px;
   line-height: 1.17;
