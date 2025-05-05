@@ -793,6 +793,10 @@ body {
   fill: #4d5ae5;
 }
 
+.modal-form-textarea-field {
+  margin-bottom: 16px;
+}
+
 .modal-form-textarea {
   width: 100%;
   height: 120px;
@@ -815,7 +819,7 @@ body {
 }
 
 .modal-form-checkbox-field {
-  margin-bottom: 16px;
+  margin-bottom: 24px;
 }
 
 .visually-hidden {
