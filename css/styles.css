@@ -749,7 +749,6 @@ body {
 
 .modal-form-field {
   margin-bottom: 8px;
-  margin-bottom: 16px;
 }
 
 .modal-form-label {
@@ -763,6 +762,7 @@ body {
 
 .modal-form-input-wrapper {
   position: relative;
+  margin-bottom: 8px;
 }
 
 .modal-form-input {
@@ -832,7 +832,7 @@ body {
 }
 
 .modal-form-checkbox-label {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   font-size: 12px;
   line-height: 1.17;
@@ -841,7 +841,7 @@ body {
 }
 
 .modal-form-checkbox-wrapper {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   width: 16px;
